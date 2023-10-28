@@ -1,0 +1,28 @@
+{
+    "parent": "cubec:root",
+    "display": {
+        "icon": {
+            "item": "structure_void",
+            "nbt": "{CustomModelData:10000}"
+        },
+        "title": {
+            "translate":"cubec.name",
+            "bold": true,
+            "color": "yellow"
+        },
+        "description": {
+            "translate":"cubec.advancement.root.des",
+            "color": "white",
+            "bold": true
+        },
+        "frame":"challenge",
+        "announce_to_chat": true,
+        "background": "minecraft:textures/block/white_wool.png",
+        "show_toast": true
+    },
+    "criteria": {
+        "cubec": {
+            "trigger": "tick"
+        }
+    }
+}

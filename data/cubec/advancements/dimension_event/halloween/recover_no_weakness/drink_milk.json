@@ -1,0 +1,38 @@
+{
+    "parent": "cubec:dimension_event/halloween/recover_no_weakness",
+    "criteria": {
+        "drunk": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "milk_bucket"
+                    ]
+                },
+                "player": {
+                    "location": {
+                        "dimension": "cubec:halloween"
+                    }
+                }
+            }
+        },
+        "drinking": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "milk_bucket"
+                    ]
+                },
+                "player": {
+                    "location": {
+                        "dimension": "cubec:halloween"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cubec:dimension_event/halloween/recover_no_weakness"
+    }
+}

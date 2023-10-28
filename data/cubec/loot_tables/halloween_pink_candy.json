@@ -1,0 +1,31 @@
+{
+    "type": "generic",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "golden_apple",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": [
+                                {
+                                    "translate": "cubec.item.halloween_pink_candy",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:10002,cubec:{version:1.0,item:{id:\"halloween_pink_candy\"}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

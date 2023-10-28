@@ -1,0 +1,1 @@
+scoreboard players reset * cubec.temp.dimension_changed

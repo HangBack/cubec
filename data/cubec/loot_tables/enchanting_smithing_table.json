@@ -1,0 +1,31 @@
+{
+    "type": "generic",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "bat_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": [
+                                {
+                                    "translate": "cubec.block.enchanting_smithing_table",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:10001,EntityTag:{id:\"interaction\",response:true,Tags:[\"cubec.block.enchanting_smithing_table\",\"cubec.temp\",\"cubec\"],width:1.1,height:1.1},cubec:{version:1.0,item:{id:\"enchanting_smithing_table\"}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

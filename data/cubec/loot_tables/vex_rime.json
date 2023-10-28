@@ -1,0 +1,31 @@
+{
+    "type": "generic",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "firework_star",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": [
+                                {
+                                    "translate": "cubec.item.vex_rime",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:20001,cubec:{version:1.0,item:{id:\"vex_rime\"}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

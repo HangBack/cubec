@@ -1,0 +1,8 @@
+{
+    "parent": "cubec:dimension_event/halloween",
+    "criteria": {
+        "cubec": {
+            "trigger": "impossible"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "cubec:root",
+    "criteria": {
+        "cubec": {
+            "trigger": "impossible"
+        }
+    }
+}

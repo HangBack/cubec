@@ -1,0 +1,43 @@
+{
+    "has_precipitation": false,
+    "carvers": {
+        "air": [],
+        "liquid": []
+    },
+    "features": [],
+    "creature_spawn_probability": 0.9999999,
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:zombie",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 3
+            }
+        ]
+    },
+    "spawn_costs": {},
+    "downfall": 0,
+    "temperature": 7.0,
+    "temperature_modifier": "none",
+    "effects": {
+        "sky_color": 10444703,
+        "fog_color": 10444703,
+        "water_color": 10444703,
+        "water_fog_color": 10444703,
+        "particle": {
+            "options": {
+                "type": "item",
+                "id": "ghost_tear",
+                "Count": 1
+            },
+            "probability": 0.5
+        },
+        "music": {
+            "replace_current_music": false,
+            "sound": "cubec:music.ghost_flat.ambient",
+            "max_delay": 24000,
+            "min_delay": 12000
+        }
+    }
+}

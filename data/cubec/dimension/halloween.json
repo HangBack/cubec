@@ -1,0 +1,11 @@
+{
+    "type": "cubec:halloween",
+    "generator": {
+        "type": "noise",
+        "biome_source": {
+            "type": "fixed",
+            "biome": "cubec:halloween/ghost_flat"
+        },
+        "settings": "cubec:halloween"
+    }
+}

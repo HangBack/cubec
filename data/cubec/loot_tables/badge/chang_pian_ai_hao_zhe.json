@@ -1,0 +1,57 @@
+{
+    "type": "advancement_reward",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "firework_star",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": [
+                                {
+                                    "translate": "cubec.item.badge.prefix",
+                                    "color": "white",
+                                    "italic": false,
+                                    "bold": true
+                                },
+                                {
+                                    "translate": "cubec.advancement.chang_pian_ai_hao_zhe.title",
+                                    "color": "yellow",
+                                    "italic": false,
+                                    "bold": true
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "translate": "cubec.item.badge.owner",
+                                    "italic": false,
+                                    "color": "aqua"
+                                },
+                                [
+                                    "  ",
+                                    {
+                                        "selector": "@s",
+                                        "italic": false,
+                                        "color": "white"
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:127,CustomModelData:10002,cubec:{version:1.0,item:{id:\"badge\",tag:{achieve:\"chang_pian_ai_hao_zhe\"}}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

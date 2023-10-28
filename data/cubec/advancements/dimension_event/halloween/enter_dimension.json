@@ -1,0 +1,14 @@
+{
+    "parent": "cubec:dimension_event/halloween",
+    "criteria": {
+        "cubec": {
+            "trigger": "changed_dimension",
+            "conditions": {
+                "to": "cubec:halloween"
+            }
+        }
+    },
+    "rewards": {
+        "function": "cubec:dimension_event/halloween/enter_dimension"
+    }
+}

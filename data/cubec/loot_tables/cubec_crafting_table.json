@@ -1,0 +1,31 @@
+{
+    "type": "generic",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "bat_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "entity": "this",
+                            "name": [
+                                {
+                                    "translate": "cubec.block.cubec_crafting_table",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{cubec:{version:1.0,item:{id:\"cubec_crafting_table\"}},CustomModelData:10002,EntityTag:{id:\"interaction\",Tags:[\"cubec.temp\",\"cubec.block.cubec_crafting_table\",\"cubec.temp\",\"cubec\"],width:1.1,height:1.1}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

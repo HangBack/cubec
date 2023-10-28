@@ -1,0 +1,16 @@
+{
+    "parent": "cubec:root",
+    "criteria": {
+        "cubec": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "nbt": "{cubec:{item:{id:\"halloween_pink_candy\"}}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cubec:items/halloween_pink_candy"
+    }
+}

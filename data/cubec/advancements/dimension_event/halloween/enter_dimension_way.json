@@ -1,0 +1,60 @@
+{
+    "parent": "cubec:dimension_event/halloween",
+    "criteria": {
+        "enter_1": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "offsetY": 1,
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "soul_sand"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "condition": "location_check",
+                        "offsetY": -1,
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "soul_sand"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "carved_pumpkin"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "condition": "match_tool",
+                        "predicate": {
+                            "items": [
+                                "shears"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "enter_1"
+        ]
+    ],
+    "rewards": {
+        "function": "cubec:dimension_event/halloween/enter_dimension_way"
+    }
+}

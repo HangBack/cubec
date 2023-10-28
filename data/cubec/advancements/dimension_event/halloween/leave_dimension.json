@@ -1,0 +1,33 @@
+{
+    "parent": "cubec:dimension_event/halloween",
+    "criteria": {
+        "changed": {
+            "trigger": "changed_dimension",
+            "conditions": {
+                "from": "cubec:halloween"
+            }
+        },
+        "die": {
+            "trigger": "tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "cubec.confirm.death": {
+                                "min": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["changed", "die"]
+    ],
+    "rewards": {
+        "function": "cubec:dimension_event/halloween/leave_dimension"
+    }
+}
