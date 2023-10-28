@@ -4,7 +4,7 @@
         "entity": "this",
         "name": [
             {
-                "translate": "cubec.item.halloween_axe",
+                "translate": "cubec.item.halloween_pickaxe",
                 "color": "white",
                 "italic": false
             }
@@ -12,13 +12,13 @@
     },
     {
         "function": "set_nbt",
-        "tag": "{CustomModelData:10001,cubec:{version:1.0,item:{id:\"halloween_axe\"}}}"
+        "tag": "{CustomModelData:10001,cubec:{version:1.0,item:{id:\"halloween_pickaxe\"}}}"
     },
     {
         "function": "set_enchantments",
         "enchantments": {
-            "sharpness": 20,
             "efficiency": 10,
+            "fortune": 10,
             "unbreaking": 10,
             "mending": 1
         }
