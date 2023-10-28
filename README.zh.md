@@ -1,6 +1,8 @@
 # 介绍
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/HangBack/cubec/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/SL0ANE/Loy-s-Goodies/blob/main/LICENSE)
+
+[![协议](https://img.shields.io/badge/协议-MIT-blue.svg)](https://github.com/HangBack/cubec/LICENSE)
+![活跃度](https://img.shields.io/badge/构建-开发-brightgreen)
+
 
 该数据包向原版增添了一些杂乱的玩法。旨在创建一个有趣的冒险世界
 

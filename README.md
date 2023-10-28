@@ -1,5 +1,8 @@
 # Introduction
 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/HangBack/cubec/LICENSE)
+![Metrics](https://img.shields.io/badge/build-develop-brightgreen)
+
 This datapack add some mix play to vanilla. Aim to create an interesting adventure world.
 
 # Usage
