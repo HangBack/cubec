@@ -1,0 +1,17 @@
+[
+    {
+        "function": "set_name",
+        "entity": "this",
+        "name": [
+            {
+                "translate": "cubec.item.forging_hammer",
+                "color": "white",
+                "italic": false
+            }
+        ]
+    },
+    {
+        "function": "set_nbt",
+        "tag": "{CustomModelData:10001,cubec:{version:1.0,item:{id:\"forging_hammer\"}}}"
+    }
+]

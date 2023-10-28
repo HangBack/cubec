@@ -1,0 +1,17 @@
+[
+    {
+        "function": "set_name",
+        "entity": "this",
+        "name": [
+            {
+                "translate": "cubec.block.forging_table",
+                "color": "white",
+                "italic": false
+            }
+        ]
+    },
+    {
+        "function": "set_nbt",
+        "tag": "{cubec:{version:1.0,item:{id:\"forging_table\"}},CustomModelData:10003,EntityTag:{id:\"interaction\",Tags:[\"cubec.temp\",\"cubec.block.forging_table\",\"cubec.temp\",\"cubec\"],width:1.05,height:1.05}}"
+    }
+]
